@@ -22,7 +22,7 @@ jobs:
             mongouri: ${{secrets.MONGODB_URI_ENV}}
           run: |
             ls -la 
-            docker build --build-arg MONGODB_URI=$mongouri . -f Dockerfile -t dhruvin30/demo-image-test:latest
+            docker build --build-arg MONGODB_URI=$mongouri . -f Dockerfile -t ${{secrets.DOCKERHUB_USERNAME}}/demo-image-test:latest
         - name: push the docker image
           id: push-docker-image
           run: docker push ${{secrets.DOCKERHUB_USERNAME}}/demo-image-test:latest
