@@ -13,6 +13,8 @@ RUN npm install
 # Copy rest of the application
 COPY . .
 
+ENV MONGODB_URI= "mongodb+srv://maureenkagema:Chick3nf00t@movies.sbdsj.mongodb.net/?retryWrites=true&w=majority&appName=Movies"
+
 # Build the application
 RUN npm run build
 
