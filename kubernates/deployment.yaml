@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: movie-app
-        image: movie-app:latest
-        imagePullPolicy: Never
+        image:  mokagema/demo-image-test:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         env:
