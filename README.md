@@ -1,3 +1,10 @@
+![run-app](https://github.com/user-attachments/assets/82d708a4-4e5a-4d2e-a5b0-577f729ef8ad)
+![mongo-secret](https://github.com/user-attachments/assets/0a3f9c80-7492-40e0-abc0-8e5605e0f6d8)
+![check-pods](https://github.com/user-attachments/assets/74ad25d1-ef9b-4d7d-9bed-dc0869e12274)
+![load-balancer](https://github.com/user-attachments/assets/252bdfd3-04cb-458d-b136-9e196b26f984)
+![docker-file](https://github.com/user-attachments/assets/8335adda-9127-4a86-a963-6353e4dd3b28)
+![app-running](https://github.com/user-attachments/assets/e4d2dce6-eec4-477a-8aaf-e6b834a6c392)
+![docker-image](https://github.com/user-attachments/assets/7b6689e8-755b-4376-90a0-c4f54f8d469b)
 Movie Display Application
 A simple Next.js application that displays a grid of movies fetched from MongoDB Atlas, containerized with Docker, and deployed on Kubernetes (Minikube).
 
