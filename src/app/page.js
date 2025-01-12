@@ -1,5 +1,5 @@
-import MovieGrid from '@/components/MovieGrid'
-import { getAllMovies } from '@/lib/mongodb'
+import MovieGrid from '../app/components/MovieGrid'
+import { getAllMovies } from '../app/lib/mongodb'
 
 export default async function Home() {
   try {

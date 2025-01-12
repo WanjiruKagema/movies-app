@@ -4,7 +4,20 @@ const nextConfig = {
         remotePatterns: [
           {
             protocol: 'https',
-            hostname: 'fakeimg.pl',
+            hostname: 'm.media-amazon.com',
+            pathname: '/images/**',
+           
+          },
+          {
+            protocol: 'https',
+            hostname: 'www.postergully.com',
+            pathname: '/cdn/shop/products/**',
+           
+          },
+          {
+            protocol: 'https',
+            hostname: 'images-na.ssl-images-amazon.com',
+            pathname: '/images/I/**',
            
           },
         ],
