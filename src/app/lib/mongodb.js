@@ -37,8 +37,7 @@ export async function getAllMovies() {
     console.log('Connected to MongoDB successfully')
 
     const movies = await db.collection('movies').find({}).toArray()
-    console.log("movies", movies)
-
+  
     // Transform the _id to string to ensure proper JSON serialization
     const serializedMovies = movies.map(movie => ({
       ...movie,
