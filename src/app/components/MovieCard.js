@@ -15,6 +15,7 @@ export default function MovieCard({ movie }) {
       <div className="p-4">
         <h2 className="text-white font-semibold truncate">{movie.title}</h2>
         <p className="text-white font-default truncate">{movie.plot}</p>
+        <p className="text-white pt-2 font-default truncate">{movie.awards}</p>
       </div>
     </div>
   )
